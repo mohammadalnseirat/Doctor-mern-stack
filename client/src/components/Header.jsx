@@ -3,9 +3,9 @@ import { assets } from "../assets/assets";
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap px-6 md:px-10 lg:px-20 bg-primary rounded-lg">
+    <div className="flex flex-col md:flex-row flex-wrap px-6 md:px-10 lg:px-20 bg-primary rounded-tl-2xl rounded-br-2xl rounded-sm ">
       {/* Left Side Start here */}
-      <div className="w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
+      <div className="w-1/2  flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
         <p className="text-3xl md:text-4xl lg:text-5xl text-gray-100  font-semibold leading-tight">
           Book Appointment <br className="hidden md:block" /> with Trusetd
           Doctors
